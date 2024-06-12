@@ -1,6 +1,5 @@
 using System;
 using System.Diagnostics;
-using System.Text.RegularExpressions;
 
 class Scripture
 {    
@@ -12,7 +11,8 @@ class Scripture
     {
         _reference = reference;
         _text = text;
-        List<string> wordList = new List<string>(Regex.Split(_text, " "));
+
+        List<string> wordList = new List<string>(_text.Split(" "));
         foreach (string word in wordList)
         {
             Word word1 = new Word(word);
