@@ -1,0 +1,4 @@
+270
+SimpleGoal,go to the temple,do baptisms,50,True
+EternalGoal,read scriptures everyday,read in room,20
+ChecklistGoal,talk to people,talk to church people,20,100,3,3
